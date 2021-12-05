@@ -1,0 +1,57 @@
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(
+    256deg,
+    rgba(140, 184, 245, 1) 0%,
+    rgba(188, 136, 245, 1) 97%
+  );
+}
+
+.form {
+  display: none;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+}
+
+.show {
+  display: block;
+}
+
+.error {
+  color: red;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: rgb(27, 106, 249);
+}
+
+label {
+  padding: 10px 0;
+}
+
+.submit {
+  padding: 5px 0;
+  border-radius: 1rem;
+  background: rgb(175, 133, 244);
+  color: #fff;
+  border: none;
+}
+
+.submit:hover {
+  color: #fff;
+  background: rgba(140, 184, 245, 1);
+}
+
+.selected {
+  background: #fff;
+  color: rgba(188, 136, 245, 1) !important;
+}
+
+.nav-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
